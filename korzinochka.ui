@@ -74,6 +74,11 @@ border-style: outset;
 border-color: beige;
 padding: 5px</string>
     </property>
+    <column>
+     <property name="text">
+      <string notr="true">1</string>
+     </property>
+    </column>
    </widget>
    <widget class="QPushButton" name="selectBtn">
     <property name="enabled">
@@ -244,6 +249,32 @@ border-color: beige
      <string>Refresh</string>
     </property>
    </widget>
+   <widget class="QPushButton" name="Check">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>670</y>
+      <width>151</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>check All</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Uncheck">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>670</y>
+      <width>131</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Un</string>
+    </property>
+   </widget>
    <zorder>selectBtn</zorder>
    <zorder>runBtn</zorder>
    <zorder>stopBtn</zorder>
@@ -253,6 +284,8 @@ border-color: beige
    <zorder>listWidget</zorder>
    <zorder>label_3</zorder>
    <zorder>refreshBtn</zorder>
+   <zorder>Check</zorder>
+   <zorder>Uncheck</zorder>
   </widget>
  </widget>
  <resources/>
