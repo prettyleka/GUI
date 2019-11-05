@@ -119,18 +119,18 @@ class ExampleApp(QtWidgets.QMainWindow, design.Ui_MainWindow):
         if not checked_files:
             return ""
         run_command = self.generate_command_for_file_names(checked_files)
-        process = subprocess.Popen(run_command, stdout=subprocess.PIPE, shell=True, cwd=self.current_dir)
+        process = subprocess.Popen(run_command, shell=True, cwd=self.current_dir)
         self.processes.append({"id": process.pid})
         self.runBtn.setEnabled(False)
         self.treeWidget.setEnabled(False)
 
     def print_logs(self):
-        if not self.logger_output_file_full_path:
-            return
-        with open(self.logger_output_file_full_path, "r") as logger_output_file:
-            log_content = " ".join(logger_output_file.read().split("\n"))
-            self.logBrowser.setText("")  # log to screen
-            self.logBrowser.setText(log_content)  # log to screen
+        logger_file_path = self.current_dir + "/log/"
+        for file in os.listdir(logger_file_path):
+            if file.endswith(".log"):
+                logger_file_full_path = logger_file_path + file
+                with open(logger_file_full_path, "r") as logger_file:
+                    self.listWidget.append(logger_file.read())
 
 
     def kill(self, proc_pid):
