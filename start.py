@@ -1,11 +1,10 @@
 import os
 import subprocess
+import sys
 from builtins import super
-from tkinter import *
 from subprocess import *
 from PyQt5 import QtWidgets, QtCore, QtGui, Qt
 from PyQt5.QtGui import QCursor
-from PyQt5.QtWidgets import QButtonGroup, QCheckBox
 
 
 

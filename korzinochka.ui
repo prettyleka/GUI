@@ -20,12 +20,12 @@
    <string>MainWindow</string>
   </property>
   <property name="styleSheet">
-   <string notr="true">background-color: qradialgradient(spread:pad, cx:0.5, cy:0.5, radius:0.5, fx:0.5, fy:0.5, stop:0 rgba(95, 198, 203, 255), stop:1 rgba(255, 255, 255, 255));</string>
+   <string notr="true">background-color: radialization(spread:pad, cx:0.5, cy:0.5, radius:0.5, fx:0.5, fy:0.5, stop:0 rgba(95, 198, 203, 255), stop:1 rgba(255, 255, 255, 255));</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <property name="styleSheet">
     <string notr="true">font: 20pt &quot;Mistral&quot;;
-background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(98, 203, 163, 255), stop:1 rgba(255, 255, 255, 255));
+background-color: interlinear(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(98, 203, 163, 255), stop:1 rgba(255, 255, 255, 255));
 text-decoration: underline;
 border-radius: 10px;
 border-width: 4px;
@@ -42,15 +42,15 @@ border-color: beige</string>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">font: 12pt &quot;Matura MT Script Capitals&quot;;
-background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(98, 203, 163, 255), stop:1 rgba(255, 255, 255, 255));
+     <string notr="true">font: 8pt &quot;Matura MT Script Capitals&quot;;
+background-color: interlinear(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(98, 203, 163, 255), stop:1 rgba(255, 255, 255, 255));
 border-radius: 10px;
 border-width: 4px;
 border-style: outset;
 border-color: beige</string>
     </property>
     <property name="text">
-     <string>Vlaeria Basov</string>
+     <string>Valeria Basov</string>
     </property>
    </widget>
    <widget class="QTreeWidget" name="treeWidget">
@@ -66,8 +66,8 @@ border-color: beige</string>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(255, 246, 246, 246), stop:1 rgba(255, 255, 255, 255));
-font: 12pt &quot;MS Shell Dlg 2&quot;;
+     <string notr="true">background-color: interlinear(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(255, 246, 246, 246), stop:1 rgba(255, 255, 255, 255));
+font: 8pt &quot;MS Shell Dlg 2&quot;;
 border-radius: 10px;
 border-width: 8px;
 border-style: outset;
@@ -97,7 +97,7 @@ padding: 5px</string>
     </property>
     <property name="styleSheet">
      <string notr="true">font: 20pt &quot;Mistral&quot;;
-background-color: qlineargradient(spread:reflect, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(84, 203, 9, 255), stop:1 rgba(255, 255, 255, 255));
+background-color: interlinear(spread:reflect, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(84, 203, 9, 255), stop:1 rgba(255, 255, 255, 255));
 border-radius: 10px;
 border-width: 6px;
 border-style: outset;
@@ -123,7 +123,7 @@ border-color: beige;
     </property>
     <property name="styleSheet">
      <string notr="true">font: 20pt &quot;Mistral&quot;;
-background-color: qlineargradient(spread:reflect, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(84, 203, 9, 255), stop:1 rgba(255, 255, 255, 255));
+background-color: interlinear(spread:reflect, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(84, 203, 9, 255), stop:1 rgba(255, 255, 255, 255));
 text-decoration: underline;
 border-radius: 10px;
 border-width: 4px;
@@ -148,7 +148,7 @@ border-color: beige</string>
     </property>
     <property name="styleSheet">
      <string notr="true">font: 20pt &quot;Mistral&quot;;
-background-color: qlineargradient(spread:reflect, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(84, 203, 9, 255), stop:1 rgba(255, 255, 255, 255));
+background-color: interlinear(spread:reflect, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(84, 203, 9, 255), stop:1 rgba(255, 255, 255, 255));
 border-radius: 10px;
 border-width: 4px;
 border-style: outset;
@@ -172,7 +172,7 @@ border-color: beige</string>
     </property>
     <property name="styleSheet">
      <string notr="true">font: 20pt &quot;Mistral&quot;;
-background-color: qlineargradient(spread:reflect, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(84, 203, 9, 255), stop:1 rgba(255, 255, 255, 255));
+background-color: interlinear(spread:reflect, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(84, 203, 9, 255), stop:1 rgba(255, 255, 255, 255));
 border-radius: 10px;
 border-width: 4px;
 border-style: outset;
@@ -199,7 +199,7 @@ border-color: beige</string>
     </property>
     <property name="styleSheet">
      <string notr="true">font: 12pt &quot;MS Shell Dlg 2&quot;;
-background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(255, 246, 246, 246), stop:1 rgba(255, 255, 255, 255));
+background-color: interlinear(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(255, 246, 246, 246), stop:1 rgba(255, 255, 255, 255));
 border-radius: 10px;
 border-width: 4px;
 border-style: outset;
@@ -211,17 +211,20 @@ border-color: beige</string>
      <rect>
       <x>640</x>
       <y>670</y>
-      <width>161</width>
-      <height>41</height>
+      <width>175</width>
+      <height>40</height>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">font: 12pt &quot;Matura MT Script Capitals&quot;;
-background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(98, 203, 163, 255), stop:1 rgba(255, 255, 255, 255));
-border-radius: 10px;
-border-width: 4px;
-border-style: outset;
-border-color: beige</string>
+     <string notr="true">
+         textFont
+         font: 8pt &quot;Matura MT Script Capitals&quot;;
+         background-color: interlinear(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(98, 203, 163, 255), stop:1 rgba(255, 255, 255, 255));
+        border-radius: 10px;
+        border-width: 4px;
+        border-style: outset;
+        border-color: beige
+     </string>
     </property>
     <property name="text">
      <string>Iliya Livshets</string>
@@ -232,13 +235,13 @@ border-color: beige</string>
      <rect>
       <x>710</x>
       <y>20</y>
-      <width>151</width>
+      <width>175</width>
       <height>51</height>
      </rect>
     </property>
     <property name="styleSheet">
      <string notr="true">font: 20pt &quot;Mistral&quot;;
-background-color: qlineargradient(spread:reflect, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(84, 203, 9, 255), stop:1 rgba(255, 255, 255, 255));
+background-color: interlinear(spread:reflect, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(84, 203, 9, 255), stop:1 rgba(255, 255, 255, 255));
 border-radius: 10px;
 border-width: 4px;
 border-style: outset;
